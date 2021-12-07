@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Cute+Font&display=swap');
+
+* {
+    padding: 0%;
+    margin: 0%;
+}
+
+body {
+    background: #540f0f;
+    background: radial-gradient(ellipse at center, #380a0a 0%, #000000 70%);
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    font-size: 5rem;
+    font-family: 'Cute Font', cursive;
+    color: #ffffff;
+    color: #ff0000;
+    text-shadow: 0 0 20px rgba(255, 91, 91, 1),  0 0 20px rgba(255, 91, 91, 0);
+}
